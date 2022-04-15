@@ -1,0 +1,31 @@
+html{
+  text-align: center;
+  position: relative;
+}
+
+body{
+  text-align: center;
+  background-color: rgb(134,216,92);
+}
+
+h1{
+  font-style: italic;
+  font-family: fantasy;
+}
+
+.form{
+  width:200px;
+  margin-right: 0;
+  padding-right: 0;
+  /* margin: auto; */
+  /* border-radius: 0; */
+}
+
+.bt{
+
+  background-color: yellow;
+  border-color: yellow;
+  /* border-width: 0;
+  font-size: 25px;
+  padding: 0 8px 2px 8px; */
+}

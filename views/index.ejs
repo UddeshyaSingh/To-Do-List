@@ -1,0 +1,22 @@
+<%- include('partials/header'); -%>
+
+
+  <br>
+  <%= today;%>
+  <br>
+  <br>
+  <div style="border:2px solid #ddd;display:inline-block;padding:40px">
+    <%tasks.forEach(function(task){%>
+      <%= task; %>
+      <br>
+    <%});%>
+    <br>
+    <form action="/" method="post">
+      <input class="form" type="text" name="task" required>
+      <button class="bt" type="submit" name="button">+</button>
+    </form>
+  </div>
+
+
+
+<%- include('partials/footer'); -%>
